@@ -1,0 +1,4 @@
+.places {
+    grid-template-columns: repeat(2, calc(100% / 2 - 8px));
+    gap: 16px;	
+}
