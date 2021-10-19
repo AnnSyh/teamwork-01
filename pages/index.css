@@ -17,8 +17,11 @@
 @import url(../blocks/hamburger/__toggle/hamburger__toggle.css);
 
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__info/places__info.css);
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__img/places__img.css);
+@import url(../blocks/places/__img/_right/places__img_right.css);
+@import url(../blocks/places/__list/places__list.css);
 
 
 @import url(../blocks/footer/footer.css);
