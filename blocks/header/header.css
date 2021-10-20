@@ -1,4 +1,5 @@
 .header {
+<<<<<<< HEAD
   display: flex;
   max-width: 1280px;
   flex-direction: row;
@@ -13,4 +14,19 @@
   .header {
     border: 1px solid red;
   }
+=======
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1280px;
+    justify-content: space-between;
+    padding: 51px 67px;
+}
+
+@media screen and (min-width:580px) {
+    .header { 
+        flex-direction: row;
+        align-items: center;
+    }
+>>>>>>> 2dd7435555e354b51f653db2b8aeb8c3c298b361
 }
