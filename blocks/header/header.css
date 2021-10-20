@@ -1,14 +1,16 @@
 .header {
-    display: flex;
-    max-width: 1280px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 51px 67px;
+  display: flex;
+  max-width: 1280px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 51px 67px;
+  /* добавил паддинг для центровки картинки в своем блоке */
+  padding-bottom: 70px;
 }
 
-@media screen and (min-width:580px) {
-    .header { border: 1px solid red;
-
-    }
+@media screen and (min-width: 580px) {
+  .header {
+    border: 1px solid red;
+  }
 }

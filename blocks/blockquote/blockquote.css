@@ -1,0 +1,7 @@
+.blockquote {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 115px 0 135px;
+  margin: 0;
+}

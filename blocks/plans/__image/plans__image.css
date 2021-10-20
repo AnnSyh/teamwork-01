@@ -1,0 +1,15 @@
+.plans__image {
+  display: block;
+  min-width: 356px;
+  max-height: 356px;
+  background-image: url(../../../images/intro-image.jpeg);
+  background-size: cover;
+  background-position: center;
+  max-width: 355px;
+  max-height: 355px;
+  position: relative;
+  left: 128px;
+  margin: 0;
+}
+
+
