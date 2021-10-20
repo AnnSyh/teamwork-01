@@ -4,32 +4,34 @@
 	position: fixed;
 	top: 20px;
 	left: 20px;
-  
-	width: 26px;
-	height: 26px;
-  
+	width: 50px;
+	height: 50px;
 	cursor: pointer;
-	z-index: 1;
-  }
-  
-  .hamburger__btn > span,
-  .hamburger__btn > span::before,
-  .hamburger__btn > span::after {
+	z-index: 10;
+	background: #fff;
+	border: 1px solid #616161;
+    border-radius: 10px;
+}
+
+.hamburger__btn > span,
+.hamburger__btn > span::before,
+.hamburger__btn > span::after {
 	display: block;
 	position: absolute;
-  
 	width: 100%;
 	height: 2px;
-  
 	background-color: #616161;
-  
-	transition-duration: .25s;
-  }
-  .hamburger__btn > span::before {
-	content: '';
+	transition-duration: 0.25s;
+}
+.hamburger__btn > span {
+	width: calc(100% - 20px);
+	left: 10px;
+}
+.hamburger__btn > span::before {
+	content: "";
 	top: -8px;
-  }
-  .hamburger__btn > span::after {
-	content: '';
+}
+.hamburger__btn > span::after {
+	content: "";
 	top: 8px;
-  }
+}

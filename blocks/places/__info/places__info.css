@@ -1,10 +1,10 @@
 .places__info {
-    align-self: end;
-    padding: 0 30px 30px;
+    padding: 30px;
+    display: grid;
 }
 
 @media screen and (min-width: 768px) {
     .places__info {
-        padding: 0 70px 70px;
+        padding: 70px;
     }
 }

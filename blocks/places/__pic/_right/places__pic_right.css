@@ -1,10 +1,10 @@
-.places__img_right {
+.places__pic_right {
     grid-column: 1/2;
     grid-row: 1/2;
 }
 
 @media screen and (min-width: 768px) {
-    .places__img_right {
+    .places__pic_right {
         grid-column: 2/3;
         grid-row: 1/2;
     }
