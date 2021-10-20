@@ -1,20 +1,4 @@
 .header {
-<<<<<<< HEAD
-  display: flex;
-  max-width: 1280px;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 51px 67px;
-  /* добавил паддинг для центровки картинки в своем блоке */
-  padding-bottom: 70px;
-}
-
-@media screen and (min-width: 580px) {
-  .header {
-    border: 1px solid red;
-  }
-=======
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -24,9 +8,8 @@
 }
 
 @media screen and (min-width:580px) {
-    .header { 
+    .header {
         flex-direction: row;
         align-items: center;
     }
->>>>>>> 2dd7435555e354b51f653db2b8aeb8c3c298b361
 }
