@@ -4,6 +4,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left: 67px;
-    padding-right: 67px;
+    background: #fed0ac;
+    min-height: 620px;
+    margin-top: 15px;
+
 }

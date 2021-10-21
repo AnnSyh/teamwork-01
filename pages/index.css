@@ -15,6 +15,7 @@
 @import url(../blocks/hamburger/hamburger.css);
 @import url(../blocks/hamburger/__btn/hamburger__btn.css);
 @import url(../blocks/hamburger/__toggle/hamburger__toggle.css);
+@import url(../blocks/hamburger/__close/hamburger__close.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__pic/_right/places__pic_right.css);
@@ -42,5 +43,6 @@
 @import url(../blocks/blockquote/__phrase/blockquote__phrase.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
 
 @import url(../blocks/p-block/__paragraph/_people/p-block__paragraph_people.css);
