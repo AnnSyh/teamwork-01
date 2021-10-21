@@ -1,7 +1,7 @@
 #hamburger__toggle {
 	opacity: 0;
   }
-  
+
   #hamburger__toggle:checked ~ .hamburger__btn > span {
 	transform: rotate(45deg);
   }
