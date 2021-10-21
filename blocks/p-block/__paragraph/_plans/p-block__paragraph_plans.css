@@ -1,0 +1,27 @@
+@media screen and (max-width: 764px) {
+  .p-block__paragraph_plans {
+    position: absolute;
+    font-size: 3.5em;
+    line-height: 130px;
+    color: rgb(245, 245, 245);
+    opacity: 0.6;
+    z-index: 2;
+    
+  }
+
+
+}
+
+@media screen and (max-width: 540px) {
+  .p-block__paragraph_plans {
+    font-size: 2.5em;
+    line-height: 120px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+    .p-block__paragraph_plans {
+      font-size: 2em;
+      line-height: 80px;
+    }
+  }

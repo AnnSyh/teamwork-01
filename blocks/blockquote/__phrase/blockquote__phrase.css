@@ -5,3 +5,9 @@
   font-size: 13px;
   line-height: 20px;
 }
+
+@media screen and (max-width: 697px) {
+  .blockquote__phrase {
+    padding-top: 10px;
+  }
+}

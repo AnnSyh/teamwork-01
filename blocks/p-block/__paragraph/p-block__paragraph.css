@@ -8,3 +8,11 @@
   padding-top: 30px;
   padding-left: 65px;
 }
+
+@media screen and (max-width: 764px) {
+  .p-block__paragraph {
+    font-size: 1.5em;
+    padding-left: 30px;
+    line-height: 28px;
+  }
+}

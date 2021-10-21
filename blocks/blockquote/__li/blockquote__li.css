@@ -1,5 +1,11 @@
 .blockquote__li {
-    padding: 0;
-    max-width: 250px;
-    
+  padding: 0;
+  max-width: 250px;
+}
+
+@media screen and (max-width: 1000px) {
+  .blockquote__li {
+    padding-bottom: 40px;
+    box-sizing: border-box;
+  }
 }

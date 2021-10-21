@@ -1,4 +1,10 @@
 .main {
-    max-width: 100%;
-    margin-top: 35px;
+  max-width: 100%;
+  margin-top: 35px;
+}
+
+@media screen and (max-width: 764px) {
+  .main {
+    margin: 0;
+  }
 }

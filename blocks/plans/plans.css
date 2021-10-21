@@ -1,6 +1,15 @@
 .plans {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 355px;
+  display: grid;
+  justify-items: start;
+  grid-template-columns: repeat(2, minmax(355px, 1fr));
+  grid-template-rows: 355px;
+  position: relative;
+}
+
+@media screen and (max-width: 764px) {
+  .plans {
+    display: flex;
+    flex-direction: column;
     
   }
+}
